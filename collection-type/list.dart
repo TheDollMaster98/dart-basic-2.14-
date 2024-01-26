@@ -1,9 +1,9 @@
 void list() {
   // sono gli array
-  var list = [];
+  List list = [];
   print(list);
 
-  var newList = ["pinci", "cip", "pippo"];
+  List<String> newList = ["pinci", "cip", "pippo"];
   print(newList);
   print("Stampa il valore della cella n2: " + newList[1].toString());
 

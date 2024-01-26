@@ -1,6 +1,8 @@
 import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
+import 'modifier/modifier.dart';
+import 'null-safety/nullSafety.dart';
 import 'primitive-type/stringInterpolation.dart';
 import 'primitive-type/type.dart';
 
@@ -26,4 +28,12 @@ void main() {
   dictionary();
   print("----------------Interpolazione Stringhe----------------");
   stringInterpolation();
+  print("------------------------late------------------------");
+  late();
+  print("------------------------const------------------------");
+  costante();
+  print("------------------------final------------------------");
+  finale();
+  print("----------------------Null-safety----------------------");
+  nullSafety();
 }

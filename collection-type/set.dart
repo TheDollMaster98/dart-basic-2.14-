@@ -4,8 +4,9 @@
  * ma posso vedere se un elmeneto ne è presente
  */
 void set() {
-  var mySet = {"pinci", "cip", 10, true};
+  Set mySet = {"pinci", "cip", 10, true};
   print("Il mio primo set: $mySet");
+
   mySet.add(10.5);
   print("Posso usare add nei set: $mySet");
 
@@ -17,4 +18,7 @@ void set() {
 
   mySet.remove(10);
   print("Posso rimuovere un elemento specifico, nel mio caso 10: $mySet");
+
+  Set<String> mySet2 = {"pinci", "cip"};
+  print("set tipizzato $mySet2");
 }
