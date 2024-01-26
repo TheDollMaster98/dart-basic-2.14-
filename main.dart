@@ -1,11 +1,21 @@
 import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
+import 'func/anonymousFunc.dart';
+import 'func/arrowFunc.dart';
+import 'func/firstFunc.dart';
+import 'loop/collectionLoop.dart';
+import 'loop/doWhile.dart';
+import 'loop/for-loop.dart';
+import 'loop/whileLoop.dart';
 import 'modifier/modifier.dart';
 import 'null-safety/nullSafety.dart';
 import 'operations/operations.dart';
 import 'primitive-type/stringInterpolation.dart';
 import 'primitive-type/type.dart';
+import 'selection-constructors/ifElse.dart';
+import 'selection-constructors/switchCase.dart';
+import 'assertions/assertions.dart';
 
 /**
  * Per far partire un'app:
@@ -25,9 +35,10 @@ void main() {
   print("------------------------Set-------------------------");
   set();
   // mappe in dart:
-  print("----------------------Dizionari----------------------");
+  print("------------------------Dizionari------------------------");
   dictionary();
-  print("----------------Interpolazione Stringhe----------------");
+  print(
+      "------------------------Interpolazione Stringhe------------------------");
   stringInterpolation();
   print("------------------------late------------------------");
   late();
@@ -35,8 +46,30 @@ void main() {
   costante();
   print("------------------------final------------------------");
   finale();
-  print("----------------------Null-safety----------------------");
+  print("------------------------Null-safety------------------------");
   nullSafety();
-  print("----------------------Operatori----------------------");
+  print("------------------------peratori------------------------");
   operatori();
+  print("----------------------Costruttori di selezione----------------------");
+  print("----------------------if - else----------------------");
+  ifElse();
+  print("----------------------switch----------------------");
+  switchCase();
+  print("----------------------Ciclo for----------------------");
+  forLoop();
+  print("----------------------Ciclo while----------------------");
+  whileLoop();
+  print("----------------------Ciclo do while----------------------");
+  doWhileLoop();
+  print("----------------------Ciclare una lista----------------------");
+  collectionLoop();
+  print("----------------------Asserzioni----------------------");
+  assertionsTrue();
+  assertionsFalse();
+  print("----------------------Funzioni----------------------");
+  firstFunc();
+  print("----------------------Arrow Func----------------------");
+  arrowFunc();
+  print("----------------------Funzione Anonima----------------------");
+  anonymousFunc();
 }
