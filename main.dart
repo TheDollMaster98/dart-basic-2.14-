@@ -3,7 +3,9 @@ import 'collection-type/list.dart';
 import 'collection-type/set.dart';
 import 'func/anonymousFunc.dart';
 import 'func/arrowFunc.dart';
+import 'func/cascateNotation.dart';
 import 'func/firstFunc.dart';
+import 'func/funcScope.dart';
 import 'loop/collectionLoop.dart';
 import 'loop/doWhile.dart';
 import 'loop/for-loop.dart';
@@ -72,4 +74,8 @@ void main() {
   arrowFunc();
   print("----------------------Funzione Anonima----------------------");
   anonymousFunc();
+  print("----------------------Scope Funzione----------------------");
+  funcScope();
+  print("----------------------Cascate Notation----------------------");
+  cascateNotation();
 }

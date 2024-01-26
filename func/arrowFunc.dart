@@ -37,3 +37,15 @@ void pioggia({int num = 7}) {
   // Stampa "Si piove" se num è maggiore di 5, altrimenti stampa "Non piove"
   num > 5 ? print("Si piove") : print("Non piove");
 }
+
+/**
+  1- Parentesi quadre [] (Parametri Opzionali Posizionali):
+  Quando usi parentesi quadre, stai dichiarando parametri opzionali posizionali.
+  I parametri opzionali posizionali non richiedono nomi specifici durante la chiamata della funzione, ma devono essere forniti nella stessa sequenza in cui sono dichiarati.
+  Il parametro num è opzionale e può essere omesso durante la chiamata della funzione. Se fornito, deve seguire immediatamente il parametro func.
+
+  2 - Parentesi graffe {} (Parametri Opzionali Nominati):
+  Quando usi le parentesi graffe, stai dichiarando parametri opzionali nominati.
+  I parametri opzionali nominati possono essere forniti in qualsiasi ordine durante la chiamata della funzione, e il nome del parametro viene specificato.
+  sIl parametro num è opzionale e può essere fornito durante la chiamata della funzione come pioggia(num: valore). L'uso delle parentesi graffe e il nome del parametro rendono il codice più leggibile e flessibile.
+*/

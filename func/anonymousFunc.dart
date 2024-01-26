@@ -1,10 +1,14 @@
+typedef funcMaggiorenne = bool Function(int);
+
 void anonymousFunc() {
-  //funzione anonima:
-  final funcMaggiorenneScope = (int eta) => eta >= 18;
+  // Dichiarazione e assegnazione di una funzione anonima a funcMaggiorenneScope
+  final funcMaggiorenne funcMaggiorenneScope = (int eta) => eta >= 18;
+
+  // Chiamata alla funzione printMagg passando la funzione anonima funcMaggiorenneScope
   printMagg(funcMaggiorenneScope);
 }
 
 void printMagg(bool Function(int) isMaggiorenne, {int eta = 18}) {
-  // Stampa "Maggiorenne" se func(eta) restituisce true, altrimenti stampa "Minorenne"
+  // Stampa "Maggiorenne" se isMaggiorenne(eta) restituisce true, altrimenti stampa "Minorenne"
   print(isMaggiorenne(eta) ? "Maggiorenne" : "Minorenne");
 }
