@@ -3,6 +3,7 @@ import 'collection-type/list.dart';
 import 'collection-type/set.dart';
 import 'modifier/modifier.dart';
 import 'null-safety/nullSafety.dart';
+import 'operations/operations.dart';
 import 'primitive-type/stringInterpolation.dart';
 import 'primitive-type/type.dart';
 
@@ -18,10 +19,10 @@ void main() {
   print("------------------------type------------------------");
   type();
   //list = array in dart:
-  print("------------------------list------------------------");
+  print("------------------------List------------------------");
   list();
   // set = oggetti in dart:
-  print("------------------------set-------------------------");
+  print("------------------------Set-------------------------");
   set();
   // mappe in dart:
   print("----------------------Dizionari----------------------");
@@ -36,4 +37,6 @@ void main() {
   finale();
   print("----------------------Null-safety----------------------");
   nullSafety();
+  print("----------------------Operatori----------------------");
+  operatori();
 }
