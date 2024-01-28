@@ -1,5 +1,7 @@
 /**
-In breve, late viene utilizzato per variabili il cui valore può essere assegnato in un secondo momento, final per variabili il cui valore è assegnato una sola volta e non cambierà, e const per dichiarare costanti con valori noti a tempo di compilazione.
+- late = viene utilizzato per variabili il cui valore può essere assegnato in un secondo moment
+- final = per variabili il cui valore è assegnato una sola volta e non cambierà.
+- const = per dichiarare costanti con valori noti a tempo di compilazione.
 
 */
 
