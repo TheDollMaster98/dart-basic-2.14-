@@ -5,7 +5,7 @@ import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
 import 'func/anonymousFunc.dart';
-import 'func/arrowFunc.dart';
+import 'func/secondFunc.dart';
 import 'func/cascateNotation.dart';
 import 'func/firstFunc.dart';
 import 'func/funcScope.dart';
@@ -74,7 +74,7 @@ void main() {
   print("----------------------Funzioni----------------------");
   firstFunc();
   print("----------------------Arrow Func----------------------");
-  arrowFunc();
+  secondFunc();
   print("----------------------Funzione Anonima----------------------");
   anonymousFunc();
   print("----------------------Scope Funzione----------------------");

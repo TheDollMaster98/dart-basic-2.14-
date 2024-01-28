@@ -1,4 +1,4 @@
-void arrowFunc() {
+void secondFunc() {
   final eta = 17;
   final num1 = 2;
   var num2;

@@ -37,7 +37,7 @@ class Persona {
   final String? _gender; // Parametro opzionale
 
   // Costruttore principale
-  const Persona(this._name, this._surname, this._age, [this._gender]);
+  const Persona(this._name, this._surname, this._age, [this._gender = "N/D"]);
 
   // Costruttori aggiuntivi con specifica del genere
   const Persona.Boy(this._name, this._surname, this._age) : _gender = "M";
