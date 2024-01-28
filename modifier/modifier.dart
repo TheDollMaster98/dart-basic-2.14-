@@ -20,13 +20,14 @@
  */
 
 // Non è allocato da nessuna parte, l'inizializzazione verrà fatta successivamente.
-late String name; 
+
 void late() {
   /**
    * Favorisco l'inizializzazione "lazy" (pigra) della variabile usando `late`,
    * consentendo di allocare memoria solo quando avrò bisogno del valore.
    * In questo caso, la variabile 'name' viene inizializzata nel metodo 'late'.
    */
+  late String name; 
   name = "Pinci"; // Inizializzo la variabile qui e la alloco.
   print("Valore late $name"); // Stampa "Pinci"
 }
