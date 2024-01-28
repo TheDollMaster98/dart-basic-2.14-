@@ -1,4 +1,4 @@
-void secondClass() {
+void constructors() {
   // Creazione di oggetti di tipo Persona utilizzando vari costruttori
   final pippo = Persona1(name: 'Pippo', surname: "Boh", age: 55);
   final pinci = Persona("Pinci", "Limpidù", 10);

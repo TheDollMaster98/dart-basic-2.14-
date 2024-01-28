@@ -1,5 +1,6 @@
 import 'class/firstClass.dart';
 import 'class/seconClass.dart';
+import 'class/thirdClass.dart';
 import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
@@ -83,5 +84,7 @@ void main() {
   print("----------------------Classi----------------------");
   firstClass();
   print("----------------------Costruttori----------------------");
-  secondClass();
+  constructors();
+  print("----------------------Getter e setter----------------------");
+  getterSetter();
 }
