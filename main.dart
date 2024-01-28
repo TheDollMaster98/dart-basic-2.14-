@@ -1,4 +1,5 @@
 import 'class/firstClass.dart';
+import 'class/seconClass.dart';
 import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
@@ -81,4 +82,6 @@ void main() {
   cascateNotation();
   print("----------------------Classi----------------------");
   firstClass();
+  print("----------------------Costruttori----------------------");
+  secondClass();
 }
