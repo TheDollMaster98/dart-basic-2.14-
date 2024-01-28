@@ -19,8 +19,8 @@
  *   3) Può portare a ottimizzazioni a livello di compilazione.
  */
 
-late String name; // Non è allocato da nessuna parte, l'inizializzazione verrà fatta successivamente.
-
+// Non è allocato da nessuna parte, l'inizializzazione verrà fatta successivamente.
+late String name; 
 void late() {
   /**
    * Favorisco l'inizializzazione "lazy" (pigra) della variabile usando `late`,
