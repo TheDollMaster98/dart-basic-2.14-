@@ -1,6 +1,8 @@
+import 'class/InheritanceClass.dart';
+import 'class/abstractClass.dart';
 import 'class/firstClass.dart';
-import 'class/seconClass.dart';
-import 'class/thirdClass.dart';
+import 'class/constructorsClass.dart';
+import 'class/getterSetterClass.dart';
 import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
@@ -87,4 +89,8 @@ void main() {
   constructors();
   print("----------------------Getter e setter----------------------");
   getterSetter();
+  print("----------------------Ereditarietà Classi----------------------");
+  inheritance();
+  print("----------------------Classi Astratte----------------------");
+  abstractClass();
 }
