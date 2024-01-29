@@ -1,8 +1,10 @@
 import 'class/InheritanceClass.dart';
 import 'class/abstractClass.dart';
+import 'class/extensionsClass.dart';
 import 'class/firstClass.dart';
 import 'class/constructorsClass.dart';
 import 'class/getterSetterClass.dart';
+import 'class/interfaceClass.dart';
 import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
@@ -88,9 +90,13 @@ void main() {
   print("----------------------Costruttori----------------------");
   constructors();
   print("----------------------Getter e setter----------------------");
-  getterSetter();
+  getterSetterCass();
   print("----------------------Ereditarietà Classi----------------------");
-  inheritance();
+  inheritanceClass();
   print("----------------------Classi Astratte----------------------");
   abstractClass();
+  print("----------------------Interfacce----------------------");
+  interfaceClass();
+  print("----------------------Exstensions----------------------");
+  extensionsClass();
 }

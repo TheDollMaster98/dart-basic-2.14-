@@ -1,4 +1,4 @@
-void inheritance() {
+void inheritanceClass() {
   final pippo = Persona('Pippo', "Boh", 55);
   final lavoratore1 = Lavoratore(5, "Bau", "Pinci", "Limpidù", 10, "M");
 

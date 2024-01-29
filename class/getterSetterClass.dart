@@ -1,4 +1,4 @@
-void getterSetter() {
+void getterSetterCass() {
   final pippo = Persona('Pippo', "Boh", 55);
   print("Getter e setter: $pippo");
 
