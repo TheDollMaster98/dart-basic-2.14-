@@ -125,21 +125,27 @@ void operatori() {
 
   print("---------------Operatori Bitwise---------------");
 
+  // Bitwise AND: restituisce 1 solo se entrambi i bit sono 1
   var and = 5 & 3;
   print("And: 5 & 3 = $and");
 
+  // Bitwise OR: restituisce 1 se almeno uno dei bit è 1
   var or = 5 | 3;
   print("Or: 5 | 3 = $or");
 
+  // Bitwise XOR: restituisce 1 solo se i bit sono diversi
   var xor = 5 ^ 3;
   print("Xor: 5 ^ 3 = $xor");
 
+  // Bitwise Complement: nega ogni bit, trasforma 0 in 1 e viceversa
   var complemento = ~5;
   print("Complemento Not: ~5 = $complemento");
 
+  // Bitwise Shift a Sinistra: sposta i bit verso sinistra, inserendo 0 a destra
   var shiftSinistra = 5 << 1;
   print("Shift a sinistra: 5 << 1 = $shiftSinistra");
 
+  // Bitwise Shift a Destra: sposta i bit verso destra, inserendo 0 a sinistra
   var shiftDestra = 5 >> 1;
   print("Shift a destra: 5 >> 1 = $shiftDestra");
 
