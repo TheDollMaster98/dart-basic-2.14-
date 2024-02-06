@@ -2,6 +2,7 @@ import 'class/InheritanceClass.dart';
 import 'class/InvokableClass.dart';
 import 'class/abstractClass.dart';
 import 'class/enumClass.dart';
+import 'class/exceptionClass.dart';
 import 'class/extensionsClass.dart';
 import 'class/firstClass.dart';
 import 'class/constructorsClass.dart';
@@ -115,4 +116,6 @@ void main() {
   classiInvocabili();
   print("----------------------Enum----------------------");
   enumClass();
+  print("----------------------Eccezioni----------------------");
+  eccezioniClass();
 }
