@@ -1,10 +1,14 @@
 import 'class/InheritanceClass.dart';
+import 'class/InvokableClass.dart';
 import 'class/abstractClass.dart';
+import 'class/enumClass.dart';
 import 'class/extensionsClass.dart';
 import 'class/firstClass.dart';
 import 'class/constructorsClass.dart';
 import 'class/getterSetterClass.dart';
 import 'class/interfaceClass.dart';
+import 'class/mixinsClass.dart';
+import 'class/staticsClass.dart';
 import 'collection-type/dictionary.dart';
 import 'collection-type/list.dart';
 import 'collection-type/set.dart';
@@ -13,6 +17,7 @@ import 'func/secondFunc.dart';
 import 'func/cascateNotation.dart';
 import 'func/firstFunc.dart';
 import 'func/funcScope.dart';
+import 'primitive-type/generics.dart';
 import 'loop/collectionLoop.dart';
 import 'loop/doWhile.dart';
 import 'loop/for-loop.dart';
@@ -99,4 +104,15 @@ void main() {
   interfaceClass();
   print("----------------------Exstensions----------------------");
   extensionsClass();
+  print("----------------------Mixins----------------------");
+  mixinsClass();
+  print("----------------------Generics----------------------");
+  generics();
+  print(
+      "----------------------Attributi e metodi statici----------------------");
+  staticsClass();
+  print("----------------------Classi invocabili----------------------");
+  classiInvocabili();
+  print("----------------------Enum----------------------");
+  enumClass();
 }
