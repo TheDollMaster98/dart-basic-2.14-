@@ -1,3 +1,4 @@
+import 'async/future.dart';
 import 'class/InheritanceClass.dart';
 import 'class/InvokableClass.dart';
 import 'class/abstractClass.dart';
@@ -18,6 +19,7 @@ import 'func/secondFunc.dart';
 import 'func/cascateNotation.dart';
 import 'func/firstFunc.dart';
 import 'func/funcScope.dart';
+import 'library/firstLibrary.dart';
 import 'primitive-type/generics.dart';
 import 'loop/collectionLoop.dart';
 import 'loop/doWhile.dart';
@@ -118,4 +120,9 @@ void main() {
   enumClass();
   print("----------------------Eccezioni----------------------");
   eccezioniClass();
+  print("----------------------Librerie----------------------");
+  firstLibrary();
+  print("----------------------Chiamate asincrone:----------------------");
+  print("----------------------Future----------------------");
+  future();
 }
