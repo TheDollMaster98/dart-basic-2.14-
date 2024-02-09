@@ -33,6 +33,7 @@ import 'primitive-type/type.dart';
 import 'selection-constructors/ifElse.dart';
 import 'selection-constructors/switchCase.dart';
 import 'assertions/assertions.dart';
+import 'stream/stream.dart';
 
 /**
  * Per far partire un'app:
@@ -125,4 +126,6 @@ void main() {
   print("----------------------Chiamate asincrone:----------------------");
   print("----------------------Future----------------------");
   future();
+  ("----------------------Stream----------------------");
+  stream();
 }
