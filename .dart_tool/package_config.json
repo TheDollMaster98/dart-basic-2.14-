@@ -15,9 +15,9 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///C:/Users/Loris%20Dal%20Santo/AppData/Local/Pub/Cache/hosted/pub.dev/http-0.13.6",
+      "rootUri": "file:///C:/Users/Loris%20Dal%20Santo/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.2"
     },
     {
       "name": "http_parser",
@@ -62,13 +62,19 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "nome_del_tuo_progetto",
+      "name": "web",
+      "rootUri": "file:///C:/Users/Loris%20Dal%20Santo/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "dart_basic_version_2_14_plus",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     }
   ],
-  "generated": "2024-02-09T14:26:23.671313Z",
+  "generated": "2024-02-09T15:01:40.249541Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
 }
