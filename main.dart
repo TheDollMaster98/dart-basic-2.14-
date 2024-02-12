@@ -1,4 +1,5 @@
 import 'async/future.dart';
+import 'isolates/isolates.dart';
 import 'class/InheritanceClass.dart';
 import 'class/InvokableClass.dart';
 import 'class/abstractClass.dart';
@@ -33,7 +34,7 @@ import 'primitive-type/type.dart';
 import 'selection-constructors/ifElse.dart';
 import 'selection-constructors/switchCase.dart';
 import 'assertions/assertions.dart';
-import 'stream/stream.dart';
+import 'async/stream.dart';
 
 /**
  * Per far partire un'app:
@@ -128,4 +129,7 @@ void main() {
   future();
   ("----------------------Stream----------------------");
   stream();
+  future();
+  ("----------------------Isolate----------------------");
+  isolates();
 }

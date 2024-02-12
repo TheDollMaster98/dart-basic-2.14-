@@ -22,7 +22,7 @@ void future() async {
   try {
     // Esecuzione di operazioni asincrone con async/await
     final response = await performHTTPRequest();
-    print("Risposta con async/await: $response");
+    print("Risposta con async/await: $response\n");
 
     // Deserializzazione del JSON in un oggetto Todo
     final jsonResponse = convert.jsonDecode(response);
